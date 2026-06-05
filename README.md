@@ -227,29 +227,6 @@ The KNX push button is wired to the **KNX TP bus** — no direct connection to S
 - [ ] Integration with KNX visualization panels (iRidium, GIRA X1, or custom web dashboard)
 - [ ] Error handling + reconnection logic for KNXnet/IP tunneling drops
 
----
-
-## 📁 Repository Structure
-
-```
-knx-shelly-lamp-control/
-├── README.md
-├── .gitignore
-├── src/
-│   └── knx_shelly_bridge.js       # Bridge script (listener + HTTP forwarder)
-├── config/
-│   ├── knx_config_example.json    # KNX IP Interface config
-│   └── shelly_config_example.json # Shelly device + GA mapping
-├── docs/
-│   ├── architecture.md
-│   ├── knx_setup.md
-│   └── shelly_setup.md
-└── images/
-    ├── knx_valise.jpg
-    └── shelly_module_nd_light.jpg
-```
-
----
 
 ## 👤 Author
 
