@@ -7,7 +7,6 @@
 ![Status](https://img.shields.io/badge/status-functional-brightgreen?style=flat-square)
 ![Protocol](https://img.shields.io/badge/protocol-KNXnet%2FIP-blue?style=flat-square)
 ![Interface](https://img.shields.io/badge/interface-HTTP%20REST-orange?style=flat-square)
-![License](https://img.shields.io/badge/license-MIT-lightgrey?style=flat-square)
 ![Author](https://img.shields.io/badge/author-Ab40D-purple?style=flat-square)
 
 > A practical KNX-to-Shelly integration for ON/OFF lamp control —  
@@ -235,7 +234,6 @@ The KNX push button is wired to the **KNX TP bus** — no direct connection to S
 ```
 knx-shelly-lamp-control/
 ├── README.md
-├── LICENSE
 ├── .gitignore
 ├── src/
 │   └── knx_shelly_bridge.js       # Bridge script (listener + HTTP forwarder)
@@ -260,9 +258,3 @@ Electronics Engineer | IoT & Smart Systems Developer
 
 [![GitHub](https://img.shields.io/badge/GitHub-Ab40D-black?style=flat-square&logo=github)](https://github.com/Ab40D)
 [![Portfolio](https://img.shields.io/badge/Portfolio-se7en--web-blue?style=flat-square&logo=vercel)](https://se7en-web.vercel.app/)
-
----
-
-## 📄 License
-
-MIT License — see [`LICENSE`](./LICENSE) for details.
